@@ -2,7 +2,7 @@
 
 import time
 
-phrases = ['Hello, World!', 'Python is great!', 'I love coding!', 'Keep learning!']
+phrases: list[str] = ['Hello, World!', 'Python is great!', 'I love coding!', 'Keep learning!']
 
 for phrase in phrases:
 	print(phrase)  # Print each phrase in the list
